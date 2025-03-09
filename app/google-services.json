@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "963195683048",
+    "firebase_url": "https://testproje-fac07-default-rtdb.firebaseio.com",
+    "project_id": "testproje-fac07",
+    "storage_bucket": "testproje-fac07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963195683048:android:25e3c54e7b0947c4a4095d",
+        "android_client_info": {
+          "package_name": "com.example.vocabularynotebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963195683048-4cg08gmi1485tfpn1dojb8ok0i47qojb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmaRHDne-4JVcNYJbwl5iq_qpjyb0jhI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963195683048-4cg08gmi1485tfpn1dojb8ok0i47qojb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963195683048:android:852a1125685cbb0ca4095d",
+        "android_client_info": {
+          "package_name": "com.testsepeti.tkg.manager1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963195683048-4cg08gmi1485tfpn1dojb8ok0i47qojb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmaRHDne-4JVcNYJbwl5iq_qpjyb0jhI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963195683048-4cg08gmi1485tfpn1dojb8ok0i47qojb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

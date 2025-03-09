@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/voca"
+    tools:context=".workstation">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:paddingTop="20dp"
+            android:id="@+id/stationtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/kirmizi"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/wordhuntinggame"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="10dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/turuncu"
+            app:cardUseCompatPadding="true"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:text="Word Hunting"
+                    android:textColor="@color/beyaz"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imagehunting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    app:srcCompat="@drawable/wordpuzzle1"
+                    android:paddingVertical="10dp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/manuelword"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="10dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/turuncu"
+            app:cardUseCompatPadding="true"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:text="Self Text Entry"
+                    android:textColor="@color/beyaz"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imagemanuel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    app:srcCompat="@drawable/manueltext"
+                    android:paddingVertical="10dp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/addwordcard"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:clickable="true"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/yesil"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD WORD"
+                android:textColor="@color/beyaz"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:id="@+id/addwordimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/addword2"
+                android:paddingLeft="5dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
