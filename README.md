@@ -1,4 +1,4 @@
-# 📖 Vocabulary Trainer - Java + Firebase
+# 📖 Vocabulary Notebook - Java + Firebase
 ![Screenshot_20250309_161915](https://github.com/user-attachments/assets/c8918941-82e9-470d-ae32-2bb00f30d543)
 
 ## 📌 General Information
